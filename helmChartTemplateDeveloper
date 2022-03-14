@@ -1,0 +1,9 @@
+Good practices:
+
+Hard-coding the name: into a resource is usually considered to be bad practice. Names should be unique to a release. 
+
+Grammar:
+A template directive is enclosed in {{ and }} blocks.
+
+Tricks:
+When you want to test the template rendering, but not actually install anything, you can use helm install --debug --dry-run <release-name> <chart-path>
